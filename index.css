@@ -1,0 +1,31 @@
+body {
+    background-color:black;
+}
+.my-class {
+    color: white;
+    font-size: 18px;
+    margin-left: 20%;
+}
+.my-div{
+    background-color: red;
+    color: white;
+    height: 50%;
+    width: 50%;
+    margin-left: 20%;
+    font-size: 20px;
+
+}
+.ga {
+    color: white;
+    font-size: 18px;
+    margin-left: 20%;
+}
+.image-column {
+    display: flex; /* Use flexbox to create a flex container */
+    flex-direction: column; /* Arrange items in a column */
+}
+
+.image-column img {
+    width: 20%; /* Set the width of each image */
+    margin-bottom: 10px; /* Add some margin between images */
+}
