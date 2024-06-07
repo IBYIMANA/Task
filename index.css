@@ -16,16 +16,29 @@ body {
 
 }
 .ga {
-    color: white;
+    color: gainsboro;
     font-size: 18px;
     margin-left: 20%;
 }
 .image-column {
-    display: flex; /* Use flexbox to create a flex container */
-    flex-direction: column; /* Arrange items in a column */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 250px;
+    margin-left: 20%;
 }
 
 .image-column img {
-    width: 20%; /* Set the width of each image */
-    margin-bottom: 10px; /* Add some margin between images */
+    width: 200px;
+    margin-bottom: 10px; 
+    height: 300px;
+    
+}
+.image{
+    margin-left: 20%;
+}
+.ge {
+    color: gainsboro;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-bottom: 70px;
 }
