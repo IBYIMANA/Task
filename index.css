@@ -5,15 +5,35 @@ body {
     color: white;
     font-size: 18px;
     margin-left: 20%;
+    margin-bottom: 70px;
 }
-.my-div{
-    background-color: red;
-    color: white;
-    height: 50%;
-    width: 50%;
-    margin-left: 20%;
-    font-size: 20px;
+.box {
+    width: 52%;
+    height: 80%; 
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 20% auto 0;
+    gap: 10px;
+    border-radius: 30px;
+    background: #B22222;
+    opacity: 1; 
+}
+.text {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    font-family: Century Gothic;
+    opacity: 1;
+    padding: 40px;
+}
 
+.text p {
+    font-family: Century Gothic;
+    font-size: 50px;
+    font-weight: 30;
+    line-height: 60px;
+    text-align: left;
 }
 .ga {
     color: gainsboro;
